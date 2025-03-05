@@ -25,12 +25,12 @@ body {
 }
 
 .elementor-divider-separator {
-  border-color: hsl(0, 100%, 51%) !important;
-  background-color: #ff0303 !important;
+  border-color: #d395ff !important;
+  background-color: #d395ff !important;
 }
 
 #menu-item-408 > .menu-link {
-  color: #ff0303 !important;
+  color: #d395ff !important;
 }
 
 .main-header-menu .current-menu-item > .menu-link {
@@ -38,7 +38,7 @@ body {
 }
 
 .main-header-menu .menu-link:hover {
-  color: #ff0303 !important;
+  color: #d395ff !important;
 }
 
 /* Default state for the discount bar */
@@ -349,6 +349,7 @@ a:hover {
 
 h4 {
   margin: 5px 0;
+  color: #d395ff !important;
 }
 
 p {
@@ -391,6 +392,10 @@ p {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+}
+
+.comments-link {
+  color: #d395ff !important;
 }
 
 .read-more-btn:hover {
@@ -982,6 +987,22 @@ img {
 
 .elementor-button:active {
   animation: bounce 0.3s ease;
+  color: #d395ff !important;
+}
+
+.elementor-element .elementor-active .elementor-accordion-title {
+  color: #d395ff !important;
+}
+
+.page-links .page-link,
+.single .post-navigation a {
+  color: #d395ff !important;
+}
+
+.entry-meta,
+.entry-meta * {
+  line-height: 1.45;
+  color: #d395ff !important;
 }
 
 /* Mobile View */
