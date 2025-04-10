@@ -994,6 +994,35 @@ img {
   color: #d395ff !important;
 }
 
+.elementor-icon-box-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.elementor-icon-box-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px; /* spacing between icon and title */
+}
+
+.elementor-icon-box-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.elementor-icon-box-description {
+  display: none; /* Hide the paragraph */
+}
+
+
+.e-font-icon-svg{
+  width: 16px;
+height: 16px;
+fill: #d395ff;
+}
+
 .page-links .page-link,
 .single .post-navigation a {
   color: #d395ff !important;
