@@ -1022,11 +1022,17 @@ img {
   display: none; /* Hide the paragraph */
 }
 
-
-.e-font-icon-svg{
+.e-font-icon-svg {
   width: 16px;
-height: 16px;
-fill: #d395ff;
+  height: 16px;
+  fill: #d395ff;
+}
+
+.nav-links {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .page-links .page-link,
