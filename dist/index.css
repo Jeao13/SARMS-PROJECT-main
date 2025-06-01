@@ -999,6 +999,12 @@ img {
   align-items: center;
 }
 
+.accordion-button {
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  font-size: 20px !important;
+}
+
 .elementor-icon-box-icon {
   display: flex;
   align-items: center;
