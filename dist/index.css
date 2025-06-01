@@ -1046,6 +1046,13 @@ img {
   color: #d395ff !important;
 }
 
+.elementor-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px;
+}
+
 /* Mobile View */
 
 @media (max-width: 768px) {
